@@ -99,7 +99,7 @@ class Body extends Component{
                     {
                         this.state.error &&
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        une des champs est vides !
+                        A field is missing !
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onClick={this.turnOff}></button>
                         </div> 
                     }
@@ -108,7 +108,7 @@ class Body extends Component{
                     {
                         this.state.send === 2 && 
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        Erreur lors de l'envoi !
+                        Error by sending !
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onClick={this.turnOff2}></button>
                         </div>
                     }
@@ -123,20 +123,20 @@ class Body extends Component{
 
                     <form class="row g-3">
                     <div class="col-12">
-                        <label  for="inputAddress" class="form-label">E-mail de l'envoyeur</label>
+                        <label  for="inputAddress" class="form-label">E-mail Sender ( Try to use an email of a person that you know )</label>
                         <input required onChange={this.handleChange} name="sender" type="email" class="form-control" id="inputAddress" placeholder="example@gmail.com"/>
                     </div>
                     
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label">Destinataire</label>
+                        <label for="inputAddress" class="form-label">Empfänger-E-Mail-Adresse ( The person you want to send the email )</label>
                         <input required onChange={this.handleChange} name="reciever" type="email" class="form-control" id="inputAddress" placeholder="example@gmail.com"/>
                     </div>
                     <div class="col-12">
-                        <label for="inputAddress2" class="form-label">Object du Mail</label>
+                        <label for="inputAddress2" class="form-label">Betreff des E-Mails</label>
                         <input required onChange={this.handleChange} name="object" type="text" class="form-control" id="inputAddress2" placeholder="ex : Inportant Message de vérification"/>
                     </div>
                     <div class="input-group">
-                        <span class="input-group-text">Message</span>
+                        <span class="input-group-text">Naricht or Message ( What do you want to say )</span>
                         <textarea required onChange={this.handleChange} name="message" class="form-control" aria-label="With textarea"></textarea>
                     </div>
 
