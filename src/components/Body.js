@@ -65,7 +65,7 @@ class Body extends Component{
             //console.log(this.state);
             // send data to post request python
 
-            fetch('/api/send', {
+            fetch('https://email-faker.herokuapp.com/api/send', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
