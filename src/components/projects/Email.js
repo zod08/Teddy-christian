@@ -94,7 +94,8 @@ class Email extends Component{
 
                     
             
-                    <h1 className='titre'>E-mail Spoofer project</h1>
+                    <h1 className='titre'>E-mail Sender Project</h1>
+                     
 
                     {
                         this.state.error &&
