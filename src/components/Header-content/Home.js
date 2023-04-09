@@ -67,14 +67,14 @@ class Home extends Component {
                                              
                                             <p className="centered-text">During my studies in IT and Design, as well as through many online courses, I had the opportunity to familiarize myself with several programming languages and master them.</p>
                                             <div className='box-image'>
-                                                <img class="img-icon-skills" src={html} title="java icons"/>
-                                                <img class="img-icon-skills" src={css} title="java icons"/>
-                                                <img class="img-icon-skills" src={js} title="java icons"/>
-                                                <img class="img-icon-skills" src={php} title="java icons"/>
-                                                <img class="img-icon-skills" src={mysql} title="java icons"/>
-                                                <img class="img-icon-skills" src={c} title="java icons"/>
-                                                <img class="img-icon-skills" src={java} title="java icons"/>
-                                                <img class="img-icon-skills" src={python} title="java icons"/>
+                                                <img class="img-icon-skills" src={html} alt="dfadf"/>
+                                                <img class="img-icon-skills" src={css} alt="fasdf"/>
+                                                <img class="img-icon-skills" src={js} alt="asdf"/>
+                                                <img class="img-icon-skills" src={php} alt="asdf"/>
+                                                <img class="img-icon-skills" src={mysql} alt="asdf"/>
+                                                <img class="img-icon-skills" src={c} alt="asdf"/>
+                                                <img class="img-icon-skills" src={java} alt="imasadfge"/>
+                                                <img class="img-icon-skills" src={python} alt="asdfa"/>
                                             </div>
                                             
                                         </article>
@@ -91,9 +91,9 @@ class Home extends Component {
                                              
                                             <p className="centered-text">I'm also familiar with the world of design and 3D modeling, as I've taken several courses and completed projects in these field</p>
                                             <div className='box-image'>
-                                                <img class="img-icon-skills" src={photoshop} title="java icons"/>
-                                                <img class="img-icon-skills" src={indesign} title="java icons"/>
-                                                <img class="img-icon-skills" src={illustrator} title="java icons"/>
+                                                <img class="img-icon-skills" src={photoshop} alt="fasdf"/>
+                                                <img class="img-icon-skills" src={indesign} alt="adf"/>
+                                                <img class="img-icon-skills" src={illustrator} alt="dsf"/>
                                                  
                                             </div>
 
