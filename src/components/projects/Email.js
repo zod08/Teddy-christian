@@ -20,6 +20,8 @@ class Email extends Component{
         }
     }
 
+    
+
     handleChange = (event) => {
         let cible = event.target.name;
         // console.log(event.target.name);

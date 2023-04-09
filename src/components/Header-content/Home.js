@@ -15,7 +15,8 @@ import photoshop from "../assets/photoshop.png";
  
 
 class Home extends Component {
-    state = {  } 
+    
+    
     render() { 
         return (
          
