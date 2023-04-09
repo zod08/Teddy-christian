@@ -6,10 +6,10 @@ import "../components/css/Footer.css"
 class Footer extends Component{
     render(){
         return(
-            <div>
+            <div className='container-footer'>
 
-                <p class="text mt-5 mb-3 text-muted">React.js / Python / Flask / HTML / CSS / Bootstrap</p>
-                <p class="text mt-5 mb-3 text-muted">&copy; Teddy Christian</p>
+                
+                <p class="text-muted">&copy; Teddy Christian</p>
 
             </div>
         )
